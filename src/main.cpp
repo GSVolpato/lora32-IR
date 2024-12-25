@@ -107,7 +107,7 @@ void loop() {
       String info = resultToHumanReadableBasic(&results);
       Serial.println(info);
 
-      // Display the protocol, address, and command on the OLED
+      
       displayIRInfo(info);
 
       // Store the raw data
